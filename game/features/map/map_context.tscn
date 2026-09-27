@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://pwealoy46df4"]
+
+[ext_resource type="Script" uid="uid://dwuhbrwstq60t" path="res://features/map/map_context.gd" id="1_gh0an"]
+
+[node name="MapContext" type="Node3D" unique_id=2073121796]
+script = ExtResource("1_gh0an")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1731989966]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1067414599]
+offset_top = 65.0
+offset_right = 59.0
+offset_bottom = 88.0
+text = "Map"
